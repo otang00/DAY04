@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Day04
 {
-    class Program
+    class Circle : Shape
     {
-        static void Main(string[] args)
+        public void Draw()
         {
-            Editer e = new Editer();
-            e.Draw();
+            Console.WriteLine("동그라미");
 
-   
         }
-
-    } 
+    }
 }

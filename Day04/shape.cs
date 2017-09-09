@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Day04
 {
-    class Program
+    class Shape
     {
-        static void Main(string[] args)
+        public virtual void Draw()
         {
-            Editer e = new Editer();
-            e.Draw();
+            Console.WriteLine("모양");
 
-   
         }
-
-    } 
+    }
 }

@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Day04
 {
-    class Program
+    class Rectangle
     {
-        static void Main(string[] args)
+        public void Draw()
         {
-            Editer e = new Editer();
-            e.Draw();
-
-   
+            Console.WriteLine("사각형");
         }
-
-    } 
+    }
 }
